@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Spring3MVCDemo">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="spring-security-openid-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-openid-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-dbcp-1.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/commons-dbcp-1.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.15.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/log4j-1.2.15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-samples-tutorial-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-samples-tutorial-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-crypto-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-crypto-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/jstl-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-beans-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang-2.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/commons-lang-2.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-ldap-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-ldap-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-taglibs-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-taglibs-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-config-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-config-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-digester-1.8.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/commons-digester-1.8.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-log4j12-1.5.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/slf4j-log4j12-1.5.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sqlfireclient.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/sqlfireclient.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-asm-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-asm-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-core-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.0.0.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/validation-api-1.0.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-validator-4.0.2.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/hibernate-validator-4.0.2.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-expression-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-webmvc-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils-1.8.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/commons-beanutils-1.8.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-samples-contacts-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-samples-contacts-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-dao-1.2.8.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-dao-1.2.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-context-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-oxm-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool-1.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/commons-pool-1.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jms.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/jms.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-all-5.5.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/activemq-all-5.5.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-aspects-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-aspects-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-web-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.5.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/slf4j-api-1.5.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-core-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-core-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-remoting-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-remoting-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-acl-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-acl-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-cas-3.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-security-cas-3.1.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-3.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Spring3MVCDemo/WebContent/WEB-INF/lib/spring-jdbc-3.1.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Spring3MVCDemo"/>
+        <property name="java-output-path" value="/Spring3MVCDemo/build/classes"/>
+    </wb-module>
+</project-modules>

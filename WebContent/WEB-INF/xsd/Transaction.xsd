@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="Transaction" xmlns:card="Cardinfo" xmlns:dirdebt="DirectDebit">
+	<xs:import namespace="Cardinfo" schemaLocation="Cardinfo.xsd"/>
+	<xs:import namespace="DirectDebit" schemaLocation="DirectDebit.xsd"/>
+	<xs:element name="transaction">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="card:cardinfo" maxOccurs="1" minOccurs="0"/>
+				<xs:element ref="dirdebt:directdebit" maxOccurs="1" minOccurs="0"/>
+				<xs:element name="transactionid" type="xs:string"/>
+				<xs:element name="paymentid" type="xs:string"/>
+				<xs:element name="transamount" type="xs:double"/>
+				<xs:element name="transdate" type="xs:string"/>
+				<xs:element name="transtype">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="DebitCard"/>
+							<xs:enumeration value="CreditCard"/>
+							<xs:enumeration value="NetBanking"/>
+							<xs:enumeration value="ECS"/>
+							<xs:enumeration value="CashOnDelivery"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

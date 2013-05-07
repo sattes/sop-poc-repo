@@ -1,0 +1,96 @@
+2013-03-26 16:52:01,901  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-26 16:52:01,901  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-26 16:52:02,355  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-26 16:52:02,355  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-26 16:52:02,361  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLSyntaxErrorException: SQLSTATE=42X05,SEVERITY=-1: (Server=INGSSATTESL2C.corp.emc.com[1529],Thread[DRDAConnThread_13,5,sqlfire.daemons]) Table/View 'SOP.ORDERITEMS' does not exist.
+2013-03-26 16:52:02,361  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLSyntaxErrorException: SQLSTATE=42X05,SEVERITY=-1: (Server=INGSSATTESL2C.corp.emc.com[1529],Thread[DRDAConnThread_13,5,sqlfire.daemons]) Table/View 'SOP.ORDERITEMS' does not exist.
+2013-03-26 17:04:48,523  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-26 17:04:48,523  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-26 17:04:48,898  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-26 17:04:48,898  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-26 17:04:48,921  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-26 17:04:48,921  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-26 17:04:48,930  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ADDRID.  
+2013-03-26 17:04:48,930  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ADDRID.  
+2013-03-26 17:05:03,354  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-26 17:05:03,354  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-26 17:05:03,719  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-26 17:05:03,719  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-26 17:05:03,746  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@148cc8c
+2013-03-26 17:05:03,746  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@148cc8c
+2013-03-26 17:05:03,755  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ADDRID.  
+2013-03-26 17:05:03,755  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ADDRID.  
+2013-03-26 17:11:44,864  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-26 17:11:44,864  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-26 17:11:45,184  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-26 17:11:45,184  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-26 17:11:45,204  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-26 17:11:45,204  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-26 17:11:45,211  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ITEMID.  
+2013-03-26 17:11:45,211  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ITEMID.  
+2013-03-27 07:36:02,851  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-27 07:36:02,851  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-27 07:36:03,524  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:36:03,524  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:36:03,689  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-27 07:36:03,689  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-27 07:36:03,713  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ITEMID.  
+2013-03-27 07:36:03,713  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ITEMID.  
+2013-03-27 07:36:41,102  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(*) FROM SOP.ORDERITEMS
+2013-03-27 07:36:41,102  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(*) FROM SOP.ORDERITEMS
+2013-03-27 07:36:41,492  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:36:41,492  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:36:41,575  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLSyntaxErrorException: SQLSTATE=42X01,SEVERITY=-1: (Server=INGSSATTESL2C.corp.emc.com[1530],Thread[DRDAConnThread_15,5,sqlfire.daemons]) Syntax error: Encountered "*" at line 1, column 12.
+2013-03-27 07:36:41,575  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLSyntaxErrorException: SQLSTATE=42X01,SEVERITY=-1: (Server=INGSSATTESL2C.corp.emc.com[1530],Thread[DRDAConnThread_15,5,sqlfire.daemons]) Syntax error: Encountered "*" at line 1, column 12.
+2013-03-27 07:39:16,659  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-27 07:39:16,659  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-27 07:39:17,243  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:39:17,243  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:39:17,295  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-27 07:39:17,295  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-27 07:39:17,303  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ITEMID.  
+2013-03-27 07:39:17,303  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: ITEMID.  
+2013-03-27 07:39:36,941  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-27 07:39:36,941  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-27 07:39:37,290  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:39:37,290  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:39:37,313  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@6d084b
+2013-03-27 07:39:37,313  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@6d084b
+2013-03-27 07:39:37,321  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: itemid.  
+2013-03-27 07:39:37,321  ERROR main OrderItemDao::getMaxItemId> SQLException occured while getting MAX(ITEMID).java.sql.SQLException: There is no column named: itemid.  
+2013-03-27 07:41:57,626  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-27 07:41:57,626  DEBUG main OrderItemDao::getMaxItemId> SQL Query - SELECT MAX(ITEMID) FROM SOP.ORDERITEMS
+2013-03-27 07:41:58,016  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:41:58,016  DEBUG main OrderItemDao::getMaxItemId> Got the connection...
+2013-03-27 07:41:58,039  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-03-27 07:41:58,039  DEBUG main OrderItemDao::getMaxItemId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@76cbf7
+2013-04-10 15:01:30,493  DEBUG main PaymentDao::getPaymentsByStatus> SQL Query - SELECT * FROM SOPV2.PAYMENT WHERE STATUS = 'PENDING'
+2013-04-10 15:01:30,493  DEBUG main PaymentDao::getPaymentsByStatus> SQL Query - SELECT * FROM SOPV2.PAYMENT WHERE STATUS = 'PENDING'
+2013-04-10 15:01:31,031  DEBUG main PaymentDao::getPaymentsByStatus> Got the connection...
+2013-04-10 15:01:31,031  DEBUG main PaymentDao::getPaymentsByStatus> Got the connection...
+2013-04-10 15:01:31,156  ERROR main PaymentDao::getPaymentsByStatus> SQLException occured in getPaymentsByStatus(String status).java.sql.SQLException: SQLSTATE=XSAI2,SEVERITY=-1: (Server=INGSMANCHK1L1C.corp.emc.com[1533],Thread[DRDAConnThread_18,5,sqlfire.daemons]) The conglomerate (127) requested does not exist.
+2013-04-10 15:01:31,156  ERROR main PaymentDao::getPaymentsByStatus> SQLException occured in getPaymentsByStatus(String status).java.sql.SQLException: SQLSTATE=XSAI2,SEVERITY=-1: (Server=INGSMANCHK1L1C.corp.emc.com[1533],Thread[DRDAConnThread_18,5,sqlfire.daemons]) The conglomerate (127) requested does not exist.
+2013-04-10 15:02:01,873  DEBUG main PaymentDao::getPaymentsByStatus> SQL Query - SELECT * FROM SOPV2.PAYMENT WHERE STATUS = 'PENDING'
+2013-04-10 15:02:01,873  DEBUG main PaymentDao::getPaymentsByStatus> SQL Query - SELECT * FROM SOPV2.PAYMENT WHERE STATUS = 'PENDING'
+2013-04-10 15:02:09,707  DEBUG main PaymentDao::getPaymentsByStatus> Got the connection...
+2013-04-10 15:02:09,707  DEBUG main PaymentDao::getPaymentsByStatus> Got the connection...
+2013-04-10 15:03:40,740  ERROR main PaymentDao::getPaymentsByStatus> SQLException occured in getPaymentsByStatus(String status).java.sql.SQLException: SQLSTATE=XSAI2,SEVERITY=-1: (Server=INGSMANCHK1L1C.corp.emc.com[1533],Thread[DRDAConnThread_18,5,sqlfire.daemons]) The conglomerate (127) requested does not exist.
+2013-04-10 15:03:40,740  ERROR main PaymentDao::getPaymentsByStatus> SQLException occured in getPaymentsByStatus(String status).java.sql.SQLException: SQLSTATE=XSAI2,SEVERITY=-1: (Server=INGSMANCHK1L1C.corp.emc.com[1533],Thread[DRDAConnThread_18,5,sqlfire.daemons]) The conglomerate (127) requested does not exist.
+2013-04-23 21:26:57,297  DEBUG main CustomerDao::getCustomerByUserId> SQL Query - SELECT * FROM sopv2.CUSTOMER WHERE USERID = 'imchitti'
+2013-04-23 21:26:57,297  DEBUG main CustomerDao::getCustomerByUserId> SQL Query - SELECT * FROM sopv2.CUSTOMER WHERE USERID = 'imchitti'
+2013-04-23 21:26:57,949  DEBUG main CustomerDao::getCustomerByUserId> Got the connection...
+2013-04-23 21:26:57,949  DEBUG main CustomerDao::getCustomerByUserId> Got the connection...
+2013-04-23 21:26:57,987  DEBUG main CustomerDao::getCustomerByUserId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@228a02
+2013-04-23 21:26:57,987  DEBUG main CustomerDao::getCustomerByUserId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@228a02
+2013-04-23 21:27:12,373  DEBUG main CustomerDao::getCustomerByUserId> SQL Query - SELECT * FROM sopv2.CUSTOMER WHERE USERID = 'imchitti'
+2013-04-23 21:27:12,373  DEBUG main CustomerDao::getCustomerByUserId> SQL Query - SELECT * FROM sopv2.CUSTOMER WHERE USERID = 'imchitti'
+2013-04-23 21:27:12,664  DEBUG main CustomerDao::getCustomerByUserId> Got the connection...
+2013-04-23 21:27:12,664  DEBUG main CustomerDao::getCustomerByUserId> Got the connection...
+2013-04-23 21:27:12,677  DEBUG main CustomerDao::getCustomerByUserId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@228a02
+2013-04-23 21:27:12,677  DEBUG main CustomerDao::getCustomerByUserId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@228a02
+2013-04-24 11:12:44,219  DEBUG main CustomerDao::getCustomerByUserId> SQL Query - SELECT * FROM sopv2.CUSTOMER WHERE USERID = 'imchitti'
+2013-04-24 11:12:44,219  DEBUG main CustomerDao::getCustomerByUserId> SQL Query - SELECT * FROM sopv2.CUSTOMER WHERE USERID = 'imchitti'
+2013-04-24 11:12:45,593  DEBUG main CustomerDao::getCustomerByUserId> Got the connection...
+2013-04-24 11:12:45,593  DEBUG main CustomerDao::getCustomerByUserId> Got the connection...
+2013-04-24 11:12:45,675  DEBUG main CustomerDao::getCustomerByUserId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@ae506e
+2013-04-24 11:12:45,675  DEBUG main CustomerDao::getCustomerByUserId> Result = com.vmware.sqlfire.internal.client.net.NetResultSet40@ae506e

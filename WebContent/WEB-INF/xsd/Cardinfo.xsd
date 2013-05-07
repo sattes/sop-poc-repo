@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="Cardinfo">
+	<xs:element name="cardinfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cardinfoid" type="xs:string"/>
+				<xs:element name="cardnum" type="xs:integer"/>
+				<xs:element name="nameoncard" type="xs:string"/>
+				<xs:element name="expdate" type="xs:string"/>
+				<xs:element name="cardtype">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="DEBITCARD"/>
+							<xs:enumeration value="CREDITCARD"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="cardgatewaytype">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="VISA"/>
+							<xs:enumeration value="MASTERCARD"/>
+							<xs:enumeration value="AMEX"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="cardcvvnum" type="xs:int"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

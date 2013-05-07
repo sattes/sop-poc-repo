@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="DirectDebit">
+	<xs:element name="directdebit">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="debtid" type="xs:string"/>
+				<xs:element name="accholdername" type="xs:string"/>
+				<xs:element name="accnum" type="xs:int"/>
+				<xs:element name="acctype" type="xs:string"/>
+				<xs:element name="bankname" type="xs:string"/>
+				<xs:element name="bankbranch" type="xs:string"/>
+				<xs:element name="ifsccode" type="xs:string"/>
+				<xs:element name="debtamount" type="xs:double"/>
+				<xs:element name="debtdate" type="xs:string"/>
+				<xs:element name="debtfrequency" type="xs:int"/>
+				<xs:element name="debtstatus">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="DEBITED"/>
+							<xs:enumeration value="PENDING"/>
+							<xs:enumeration value="FAILURE"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

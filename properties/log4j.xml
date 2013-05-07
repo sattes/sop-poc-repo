@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+	<appender name="stdout" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{ABSOLUTE} %5p %c{1}:%L - %m%n" />
+		</layout>
+	</appender>
+    <appender name="ESBServices" class="org.apache.log4j.RollingFileAppender">
+        <param name="Threshold" value="debug"/>
+        <param name="File" value="C:\Shared\ESBServices.log"/>
+        <param name="MaxFileSize" value="5MB"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%d %X{CORRID} %p %t %C{1}::%M> %m%n"/>
+        </layout>
+    </appender>
+    <logger name="com.sp3.mvc">
+        <level value="ALL"/>
+        <appender-ref ref="ESBServices"/>
+    </logger>
+	<root>
+		<priority value="debug" />
+		<appender-ref ref="stdout" />
+		<appender-ref ref="ESBServices"/>
+	</root>
+</log4j:configuration>
